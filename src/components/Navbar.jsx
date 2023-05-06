@@ -4,7 +4,7 @@ import {HiHomeModern} from 'react-icons/hi2'
 const Header = () => {
   return (
     <div className='px-40 py-4 flex gap-20 fixed w-full header-bg'>
-      <Link to='/real-estate-react' className='text-emerald-300 flex font-semibold text-3xl logo items-center'>
+      <Link to='/real-estate-react' className='text-emerald-400 flex font-semibold text-3xl logo items-center'>
         <HiHomeModern size={25}/> home
       </Link>
       {/* <div className='flex gap-5 font-bold items-center text-gray-50'>

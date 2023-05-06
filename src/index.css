@@ -31,7 +31,8 @@
   }
   
   .header-bg {
-    background-color: #868686a9;
+    background-color: #747474c0;
+    z-index: 3;
   }
 
   .home-bg {

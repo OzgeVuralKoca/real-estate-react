@@ -1,7 +1,6 @@
-import React from 'react';
 import { useContext } from 'react'
 import { HouseContext } from './HouseContext';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Menu } from '@headlessui/react';
 import { RiHome5Line, RiArrowUpSLine, RiArrowDownSLine } from 'react-icons/ri'
 

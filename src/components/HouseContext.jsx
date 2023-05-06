@@ -10,7 +10,7 @@ const HouseContextProvider = ({ children }) => {
   const [property, setProperty] = useState('Type (any)')
   const [properties, setProperties] = useState([])
   const [price, setPrice] = useState('Price range (any)')
-  const [loading, setLoading] = useState(false)
+  const [loading] = useState(false)
 
   useEffect(() => {
     const allCountries = houses.map((house) => {
@@ -19,7 +19,7 @@ const HouseContextProvider = ({ children }) => {
     const uniqueCountries = ['Location (any)', ...new Set(allCountries)]
 
     setCountries(uniqueCountries)
-  }, [])
+  }, [houses])
 
   useEffect(() => {
     const allProperties = houses.map((house) => {
@@ -28,7 +28,7 @@ const HouseContextProvider = ({ children }) => {
     const uniqueProperties = ['Type (any)', ...new Set(allProperties)]
 
     setProperties(uniqueProperties)
-  }, [])
+  }, [houses])
 
   const handleClick = () => {
     const isDefault = (str) => {
@@ -117,11 +117,12 @@ const HouseContextProvider = ({ children }) => {
           return house.type === property
         }
       }
+
+      return false
     })
 
     setTimeout(() => {
       return newHouses.length < 1 ? setHouses([]) : setHouses(newHouses)
-      setLoading(false)
     }, 1000)
   }
 
@@ -137,8 +138,7 @@ const HouseContextProvider = ({ children }) => {
       setPrice,
       houses,
       loading,
-      handleClick,
-      loading
+      handleClick
     }}>
       {children}
     </HouseContext.Provider>

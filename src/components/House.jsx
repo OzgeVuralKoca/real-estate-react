@@ -1,9 +1,8 @@
-import React from 'react';
 import { BiBed, BiBath, BiArea } from 'react-icons/bi'
 import { RiMapPinLine } from 'react-icons/ri'
 
 const House = ({ house }) => {
-  const { image, type, country, address, bedrooms, bathrooms, surface, price } = house
+  const { image, type, address, bedrooms, bathrooms, surface, price } = house
 
   return (
     <div className='p-5 flex w-full'>

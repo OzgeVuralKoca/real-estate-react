@@ -6,7 +6,6 @@ import PropertyDropdown from './PropertyDropdown'
 import { CiSearch } from 'react-icons/ci'
 
 const Search = () => {
-  const { houses } = useContext(HouseContext)
   
   const {handleClick} = useContext(HouseContext)
 

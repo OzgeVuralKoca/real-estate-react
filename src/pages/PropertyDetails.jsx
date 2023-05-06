@@ -36,10 +36,10 @@ const PropertyDetails = () => {
         <div className='text-emerald-800 py-2 mb-12 border-b border-gray-400 font-bold text-2xl'>{house.name}</div>
         <Button onClick={handleOpen}>
           <div className='grid grid-cols-3 cursor-pointer'>
-            <img src={house.image} alt="" className='mx-auto col-span-2 h-full border' />
+            <img src={house.image} alt="house" className='mx-auto col-span-2 h-full border' />
             <div className='h-full'>
-              <img src={house.image1} alt="" className='mx-auto border' />
-              <img src={house.image2} alt="" className='mx-auto border' />
+              <img src={house.image1} alt="house" className='mx-auto border' />
+              <img src={house.image2} alt="house" className='mx-auto border' />
             </div>
           </div>
         </Button>
@@ -149,13 +149,13 @@ const PropertyDetails = () => {
           />
           <Carousel>
             <div>
-              <img src={house.image} />
+              <img src={house.image} alt='...'/>
             </div>
             <div>
-              <img src={house.image1} />
+              <img src={house.image1} alt='...' />
             </div>
             <div>
-              <img src={house.image2} />
+              <img src={house.image2} alt='...' />
             </div>
           </Carousel>
         </Box>

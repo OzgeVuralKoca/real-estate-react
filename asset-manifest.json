@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/OzgeVuralKoca.github.io/real-estate-react/static/css/main.024d9ff3.css",
-    "main.js": "/OzgeVuralKoca.github.io/real-estate-react/static/js/main.58b81436.js",
+    "main.js": "/OzgeVuralKoca.github.io/real-estate-react/static/js/main.677051e6.js",
     "static/media/a5-bed.png": "/OzgeVuralKoca.github.io/real-estate-react/static/media/a5-bed.111f3160df00be22ea73.png",
     "static/media/house12-bed.png": "/OzgeVuralKoca.github.io/real-estate-react/static/media/house12-bed.9c1d8f88d44238322eef.png",
     "static/media/homepage.jpg": "/OzgeVuralKoca.github.io/real-estate-react/static/media/homepage.47fb0b9de7c292b3fed4.jpg",
@@ -71,10 +71,10 @@
     "static/media/agent3.png": "/OzgeVuralKoca.github.io/real-estate-react/static/media/agent3.e10cfbea6a67f149dcdc.png",
     "index.html": "/OzgeVuralKoca.github.io/real-estate-react/index.html",
     "main.024d9ff3.css.map": "/OzgeVuralKoca.github.io/real-estate-react/static/css/main.024d9ff3.css.map",
-    "main.58b81436.js.map": "/OzgeVuralKoca.github.io/real-estate-react/static/js/main.58b81436.js.map"
+    "main.677051e6.js.map": "/OzgeVuralKoca.github.io/real-estate-react/static/js/main.677051e6.js.map"
   },
   "entrypoints": [
     "static/css/main.024d9ff3.css",
-    "static/js/main.58b81436.js"
+    "static/js/main.677051e6.js"
   ]
 }

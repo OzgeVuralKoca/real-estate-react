@@ -10,8 +10,8 @@ const App = () => {
       
       <Navbar />
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/property/:id' element={<PropertyDetails />} />
+        <Route path='/real-estate-react' element={<Home />} />
+        <Route path='/real-estate-react/property/:id' element={<PropertyDetails />} />
       </Routes>
       <Footer />
     </div>

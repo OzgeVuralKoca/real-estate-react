@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/real-estate-react/static/css/main.c5acd354.css",
-    "main.js": "/real-estate-react/static/js/main.c9c2a7e2.js",
+    "main.js": "/real-estate-react/static/js/main.bfff2b85.js",
     "static/media/a5-bed.png": "/real-estate-react/static/media/a5-bed.111f3160df00be22ea73.png",
     "static/media/house12-bed.png": "/real-estate-react/static/media/house12-bed.9c1d8f88d44238322eef.png",
     "static/media/house3-kitchen.png": "/real-estate-react/static/media/house3-kitchen.dce63aed5b0a910fbcf4.png",
     "static/media/homepage.jpg": "/real-estate-react/static/media/homepage.47fb0b9de7c292b3fed4.jpg",
-    "static/media/house3.png": "/real-estate-react/static/media/house3.c1a189023bcbae0a7f42.png",
     "static/media/house2-living.png": "/real-estate-react/static/media/house2-living.73364fb8d7706dc56e87.png",
     "static/media/house2.png": "/real-estate-react/static/media/house2.ba734e4c6663db3a65cf.png",
+    "static/media/house3.png": "/real-estate-react/static/media/house3.44e30549045473ccbb2d.png",
     "static/media/house4.png": "/real-estate-react/static/media/house4.c87999cf2bb1bfe0ee70.png",
     "static/media/house7-kitchen.png": "/real-estate-react/static/media/house7-kitchen.2c096b5c2eb799d2f5bc.png",
     "static/media/house9.png": "/real-estate-react/static/media/house9.4ba2b7807479de94ff31.png",
@@ -71,10 +71,10 @@
     "static/media/agent3.png": "/real-estate-react/static/media/agent3.e10cfbea6a67f149dcdc.png",
     "index.html": "/real-estate-react/index.html",
     "main.c5acd354.css.map": "/real-estate-react/static/css/main.c5acd354.css.map",
-    "main.c9c2a7e2.js.map": "/real-estate-react/static/js/main.c9c2a7e2.js.map"
+    "main.bfff2b85.js.map": "/real-estate-react/static/js/main.bfff2b85.js.map"
   },
   "entrypoints": [
     "static/css/main.c5acd354.css",
-    "static/js/main.c9c2a7e2.js"
+    "static/js/main.bfff2b85.js"
   ]
 }
